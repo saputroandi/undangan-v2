@@ -1,0 +1,48 @@
+.akad {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.times-section,
+.days-section,
+.place-section {
+  text-align: center;
+}
+
+.times-section > div:first-child {
+  font-size: 1.1em;
+  margin-bottom: 0.3rem;
+}
+
+.times-section > div:last-child {
+  font-size: 1.3em;
+}
+
+.days-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2em;
+}
+
+.days-section > div:first-child,
+.days-section > div:last-child {
+  font-size: 1.5em;
+}
+
+.place-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.place-section > div:nth-child(2) {
+  font-size: 1.3em;
+}

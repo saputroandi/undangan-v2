@@ -1,0 +1,23 @@
+.prologue {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.prologue-image {
+  width: 90%;
+  height: auto;
+}
+
+.prologue-image > img {
+  width: inherit;
+  height: inherit;
+}
+
+.prologue-content {
+  text-align: center;
+}
